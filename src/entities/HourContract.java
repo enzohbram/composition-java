@@ -2,17 +2,17 @@ package entities;
 
 import java.util.Date;
 
-public class HourContrat {
+public class HourContract {
 
 	private Date date;
 	private double valuePerHour;
 	private Integer hours;
 	
-	public HourContrat() {
+	public HourContract() {
 		
 	}
 	
-	public HourContrat(Date date, double valuePerHour, Integer hours) {
+	public HourContract(Date date, double valuePerHour, Integer hours) {
 		super();
 		this.date = date;
 		this.valuePerHour = valuePerHour;
